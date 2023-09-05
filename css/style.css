@@ -1,6 +1,6 @@
 .container {
     max-width: 1920px;
-    height: 100%;
+    width: 100%;
     margin: auto;
     border: 10px solid red;
 }
@@ -8,16 +8,18 @@
 /* main_header */
 
 .main_header {
+    width: 100%;
     padding: 26px 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     background-color: rgba(213, 144, 110, 0.52);
-    border: 10px solid rgb(82, 48, 205);
-
-
-
+    backdrop-filter: blur (5px);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid red;
 }
 
 /* left_side */
@@ -29,7 +31,8 @@
 
 .main_header_nav {
 
-    width: 40%;
+    width: 20%;
+    border: 5px solid red;
 
 }
 
@@ -38,16 +41,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    border: 5px solid red;
-
 
 }
 
 .main_header_li {
 
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -58,7 +58,7 @@
 
 .main_header_li_active {
     color: #D5906E;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -68,18 +68,18 @@
 /* home_title */
 
 .home_title_div {
+    width: 35%;
     border: 5px solid red;
-    width: 28.5%;
-    
+
 }
 
-.home_title{
+.home_title {
     display: flex;
 }
 
 .home_title_div_1 {
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -88,7 +88,7 @@
 
 .home_title_div_2 {
     color: #D5906E;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
@@ -99,20 +99,18 @@
 
 .main_header_right_side {
 
-    border: 5px solid red;
-    width: 12%;
+
+    width: 16%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: rgba(213, 144, 110, 0.52);
-
-
-
+    border: 5px solid red;
 }
 
 .main_header_right_side_button {
     color: #FFF;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -124,7 +122,5 @@
 .shopping_button {
     color: white;
     border: none;
-   
-
 
 }
