@@ -1,1 +1,48 @@
-@media (max-width: 834px) {}
+@media (max-width: 834px) {
+    .main_header{
+        padding: 15px 3%;
+    
+    }
+    .home_title_div{
+        width: 38%;
+    }
+
+    .home_title{
+        flex-direction: column;
+    }
+
+    .main_header_nav{
+        width: 35%;
+    }
+
+    .main_header_right_side{
+        width: 20%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1025px) {
+
+    .main_header{
+        padding: 15px 5%;
+    }
+    .home_title_div{
+        width: 26%;
+    }
+}

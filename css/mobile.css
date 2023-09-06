@@ -1,5 +1,28 @@
-@media (max-width: 350px) {
+@media (max-width: 351px) {
 
-    
+.main_header{
+    padding: 9px 20px;
+}
+
+    .fa-bars{
+        display: block;
+    }
+
+    .main_header_nav{
+        display: none;
+    }
+
+    .home_title_div{
+        width: 38%;
+    }
+
+    .home_title{
+        flex-direction: column;
+    }
+
+    .main_header_right_side{
+        width: 30%;
+    }
+
 
 }
