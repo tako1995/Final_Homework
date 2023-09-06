@@ -69,7 +69,7 @@
 .home_title_div {
     width: 31.5%;
     border: 5px solid red;
-  
+
 
 
 
@@ -187,8 +187,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-   
-   
+
+
 }
 
 
@@ -257,28 +257,119 @@
     background-color: #B53B1B;
 }
 
-.home_cards_img_1{
+.home_cards_img_1 {
     width: 680px;
     height: 322px;
 }
-.home_cards_img_2{
+
+.home_cards_img_2 {
     width: 440px;
     height: 322px;
 }
-.home_cards_img_3{
+
+.home_cards_img_3 {
     width: 315px;
     height: 260px;
 }
-.home_cards_img_4{
+
+.home_cards_img_4 {
     width: 315px;
     height: 260px;
 }
-.home_cards_img_5{
+
+.home_cards_img_5 {
     width: 440px;
     height: 260px;
 }
 
+/* latest_products */
 
+.homepage_latest_products_section_div {
+
+    padding: 160px 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecd1b5;
+}
+
+.homepage_latest_products_p {
+    color: #402101;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 100px;
+
+}
+
+.homepage_latest_products_images_div {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    background-color: #d07b21;
+
+}
+
+.latest_products_div1 {
+    background-image: url("../images/latest_products1.png");
+}
+
+.latest_products_div2 {
+    background-image: url("../images/latest_products2.png");
+}
+
+.latest_products_div3 {
+    background-image: url("../images/latest_products3.png");
+}
+
+.latest_products_div4 {
+    background-image: url("../images/latest_products4.png");
+}
+
+.latest_products_div1,
+.latest_products_div2,
+.latest_products_div3,
+.latest_products_div4 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 315px;
+    height: 260px;
+    display: flex;
+    align-items: end;
+}
+
+
+
+.latest_products_p_cost {
+    color: #B53B1B;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-flex;
+    padding: 15px 17px 14px 17px;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 20px;
+    background-color: #FFF;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+
+.fa-angle-right,
+.fa-angle-left {
+
+    color: chartreuse;
+    /* რატომ არ ისტილება? */
+
+}
 
 
 /* artworks */
