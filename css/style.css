@@ -46,8 +46,7 @@
 .main_header_li,
 .main_header_li_active,
 .main_header_artworks_li_active,
-.main_header_contact_li_active
- {
+.main_header_contact_li_active {
 
     color: #FFF;
     font-family: 'Inter', sans-serif;
@@ -61,10 +60,9 @@
 
 .main_header_li_active,
 .main_header_artworks_li_active,
-.main_header_contact_li_active
-{
+.main_header_contact_li_active {
     color: #D5906E;
-    
+
 }
 
 /* home_title */
@@ -310,7 +308,7 @@
     width: 95%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 10px;
     background-color: #d07b21;
 
 }
@@ -372,6 +370,83 @@
 
 }
 
+.homepage_section_Earthly_Artistry {
+    width: 90%;
+    margin: 160px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage_section_Earthly_Artistry_first_title {
+    color: #402101;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage_section_Earthly_Artistry_div {
+    display: flex;
+    margin: 50px;
+    gap: 10px;
+
+}
+
+.homepage_section_Earthly_Artistry_h2 {
+    color: #B53B1B;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.homepage_section_Earthly_Artistry_p {
+    color: #402101;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.homepage_section_Earthly_Artistry_bottom {
+    align-items: center;
+}
+
+.homepage_section_Earthly_Artistry_bottom_text {
+    color: #402101;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage_section_Earthly_Artistry_button {
+    margin-top: 20px;
+    display: inline-flex;
+    padding: 14px 52px 13px 52px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #B53B1B;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+._section_Earthly_Artistry {
+    border-radius: 8px;
+    background: rgba(213, 144, 110, 0.30);
+}
 
 /* artworks */
 
@@ -413,7 +488,3 @@
     font-weight: 400;
     line-height: normal;
 }
-
-
-
-
