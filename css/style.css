@@ -177,7 +177,7 @@
 
 .home_section_button {
 
-  margin-top: 60px;
+    margin-top: 60px;
     width: 311px;
     height: 56px;
     padding: 19px 0px 18px 0px;
@@ -200,7 +200,7 @@
 /* home_page_cards */
 
 .home_page_cards {
-    height: 437px;
+    padding: 80px ;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -340,6 +340,7 @@
 .latest_products_div2,
 .latest_products_div3,
 .latest_products_div4 {
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -380,6 +381,32 @@
     background-color: #B53B1B;
 }
 
+/* Subscribe to Newsletter */
+
+.homepage_Subscribe_to_Newsletter {
+    background-image: url("../images/home-email-cover.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage_Subscribe_h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+/* homepage_section_Earthly_Artistry */
 .homepage_section_Earthly_Artistry {
     width: 90%;
     margin: 160px auto;
@@ -387,7 +414,41 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+}
+
+.Email_Address_div {
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    margin-top: 50px;
+}
+
+.Email_Address_input {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.SUBSCRIBE_button {
+    color: #402101;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-flex;
+    height: 56px;
+    padding: 17px 26px 17px 25px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    background: #FFF;
 }
 
 .homepage_section_Earthly_Artistry_first_title {
@@ -443,7 +504,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background: #B53B1B;
+    background-color: #B53B1B;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -456,7 +517,7 @@
 ._section_Earthly_Artistry {
     border-radius: 8px;
     background: rgba(213, 144, 110, 0.30);
-    
+
 }
 
 /* footer */
@@ -565,4 +626,5 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    background-color: transparent;
 }
