@@ -8,7 +8,8 @@
 /* main_header */
 
 .main_header {
-    width: 100%;
+    max-width: inherit;
+    width: inherit;
     padding: 26px 10%;
     display: flex;
     justify-content: space-between;
@@ -135,7 +136,6 @@
 /* home_section */
 
 .home_section {
-
     height: 720px;
     background-image: url("../images/cover1.png");
     background-size: cover;
@@ -200,7 +200,7 @@
 /* home_page_cards */
 
 .home_page_cards {
-    padding: 80px ;
+    padding: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -340,7 +340,7 @@
 .latest_products_div2,
 .latest_products_div3,
 .latest_products_div4 {
-    
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -627,4 +627,27 @@
     font-weight: 400;
     line-height: normal;
     background-color: transparent;
+}
+
+.contact_section {
+    background-image: url("../images/contact-cover.png");
+    height: 720px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact_page_information {
+    background-color: #402101;
+    display: flex;
+}
+
+.contact_page_information_div {
+
+}
+
+.contact_page_iframe {
+    width: 815px;
+    height: 320px;
 }
