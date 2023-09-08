@@ -641,16 +641,17 @@
 
 /* contact_page_information  */
 .contact_page_information {
-
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 80px;
     background: rgba(213, 144, 110, 0.30);
-
-
+    padding: 80px 80px;
+    
 }
+
+
 
 .contact_page_information_title {
     color: #402101;
@@ -666,7 +667,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap:20px;
+    gap: 20px;
 }
 
 .contact_page_information_list {
