@@ -387,6 +387,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .homepage_section_Earthly_Artistry_first_title {
@@ -401,7 +402,7 @@
 .homepage_section_Earthly_Artistry_div {
     display: flex;
     margin: 50px;
-    gap: 10px;
+    gap: 15px;
 
 }
 
@@ -421,11 +422,9 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin: 10px 0;
 }
 
-.homepage_section_Earthly_Artistry_bottom {
-    align-items: center;
-}
 
 .homepage_section_Earthly_Artistry_bottom_text {
     color: #402101;
@@ -434,6 +433,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    align-items: center;
 }
 
 .homepage_section_Earthly_Artistry_button {
@@ -456,6 +456,7 @@
 ._section_Earthly_Artistry {
     border-radius: 8px;
     background: rgba(213, 144, 110, 0.30);
+    
 }
 
 /* footer */
