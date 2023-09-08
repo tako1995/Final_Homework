@@ -96,6 +96,10 @@
     line-height: normal;
 }
 
+.home_title_div:hover {
+    filter: drop-shadow(10px 10px 20px white)
+}
+
 /* right_side */
 
 .main_header_right_side {
@@ -196,9 +200,11 @@
 .home_page_cards {
     height: 437px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 60px;
+    background-color: #ecd1b5;
 }
 
 .home_page_card {
@@ -253,7 +259,6 @@
     align-items: center;
     gap: 60px;
     margin-top: 40px;
-    background-color: #B53B1B;
 }
 
 .home_cards_img_1 {
@@ -289,7 +294,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     background-color: #ecd1b5;
 }
 
@@ -308,8 +312,9 @@
     width: 95%;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
-    background-color: #d07b21;
+   
 
 }
 
@@ -362,12 +367,16 @@
 }
 
 
-.fa-angle-right,
-.fa-angle-left {
-
-    color: chartreuse;
-    /* რატომ არ ისტილება? */
-
+.button_fa-angles-left,
+.button_fa-angles-right
+ {
+    width: 44px;
+    height: 44px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #B53B1B;
 }
 
 .homepage_section_Earthly_Artistry {
@@ -447,6 +456,73 @@
     border-radius: 8px;
     background: rgba(213, 144, 110, 0.30);
 }
+
+/* footer */
+
+.footer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 200px;
+    background-color: #402101;
+
+}
+
+
+
+
+.footer_left_side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.footer_right_side {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+}
+
+.footer_contact_style {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.footer_socialmedia {
+    display: flex;
+    gap: 15px;
+    width: 24px;
+    height: 24px;
+}
+
+
+
+
+
+
+
+
 
 /* artworks */
 
