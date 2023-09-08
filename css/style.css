@@ -177,13 +177,15 @@
 
 .home_section_button {
 
-    width: 30%;
+  margin-top: 60px;
+    width: 311px;
     height: 56px;
     padding: 19px 0px 18px 0px;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
     border: 2px solid #D5906E;
-    margin-top: 60px;
-    color: white;
+    color: #FFF;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -314,7 +316,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-   
+
 
 }
 
@@ -368,8 +370,7 @@
 
 
 .button_fa-angles-left,
-.button_fa-angles-right
- {
+.button_fa-angles-right {
     width: 44px;
     height: 44px;
     font-size: 30px;
