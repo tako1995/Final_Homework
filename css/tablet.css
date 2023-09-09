@@ -19,6 +19,11 @@
         width: 20%;
     }
 
+
+    .footer{
+        flex-wrap: wrap;
+    }
+
 }
 
 
@@ -37,12 +42,3 @@
 
 
 
-@media (max-width: 1025px) {
-
-    .main_header{
-        padding: 15px 5%;
-    }
-    .home_title_div{
-        width: 26%;
-    }
-}
