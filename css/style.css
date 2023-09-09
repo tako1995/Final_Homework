@@ -871,6 +871,7 @@ margin: 10px 0;
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
+    background-color: aqua;
 }
 
 .contact_page_information_list {
@@ -878,7 +879,7 @@ margin: 10px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     gap: 40px;
 
 
