@@ -2,7 +2,7 @@
     max-width: 1920px;
     width: 100%;
     margin: auto;
-    border: 2px solid red;
+    
 }
 
 /* HOME PAGE-1 */
@@ -36,9 +36,15 @@
     display: none;
     color: #FFF;
     font-size: 28px;
+    cursor: pointer;
 
-
-
+}
+.fa-xmark{
+    display:none;
+    color: #FFF;
+    font-size: 28px;
+    cursor: pointer;
+    
 }
 
 
@@ -665,7 +671,7 @@
 
 .footer_title_div_1 {
     color: #FFF;
-    font-family: 'Inter', sans-serif; sans-serif;
+    font-family: 'Inter', sans-serif; 
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -675,7 +681,7 @@
 
 .footer_title_div_2 {
     color: #D5906E;
-    font-family: 'Inter', sans-serif;  sans-serif;
+    font-family: 'Inter', sans-serif;  
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
@@ -1268,4 +1274,23 @@
 .contact_page_iframe {
 width: 80%;
     height: 320px;
+}
+/* burger list */
+.main_header_bar{
+    margin-top:10px ;
+  width: 100px;
+  height: 150px;
+  border-radius: 7px;
+  border: solid 3px rgb(78, 2, 2);
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top:100px;
+  background-color: #825c48;
+  display: none;
+
+}
+.active-list{
+    margin-top: 20px;
+
 }

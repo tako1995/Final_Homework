@@ -1,5 +1,5 @@
 @media (max-width: 480px) {
-    
+
     .main_header {
 
         padding: 9px 4%;
@@ -60,10 +60,6 @@
     }
 
 
-
-    /* .home_section_h2{
-        margin-top: 150px;
-    } */
 
     .home_section_p {
         width: 90%;
@@ -147,21 +143,15 @@
         width: 100%;
     }
 
-   
-
 .homepage_Subscribe_to_Newsletter {
     height: 200px;
 }
-
-
 
 .SUBSCRIBE_button {
 
     height: 48px;
     padding: 13px 25px 13px 26px;
     font-size: 18px;
-
-
 }
 
 }
