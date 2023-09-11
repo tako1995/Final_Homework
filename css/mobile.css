@@ -1,5 +1,9 @@
 @media (max-width: 480px) {
 
+.fa-xmark{
+    display: block;
+}
+
     .main_header {
 
         padding: 9px 4%;

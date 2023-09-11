@@ -5,6 +5,9 @@
 
         padding: 20px 4%;
     }
+    .fa-xmark{ display: none;
+
+    }
 
     .main_header_nav {
         width: 25%;
