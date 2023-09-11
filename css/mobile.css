@@ -1,28 +1,100 @@
-@media (max-width: 351px) {
+@media (max-width: 480px) {
+    .main_header {
 
-.main_header{
-    padding: 9px 20px;
-}
-
-    .fa-bars{
-        display: block;
+        padding: 9px 4%;
+    }
+    .main_header_right_side{
+        width: 30%;
     }
 
     .main_header_nav{
         display: none;
     }
 
-    .home_title_div{
-        width: 38%;
+    .fa-bars{
+        display: block;
     }
 
-    .home_title{
-        flex-direction: column;
+    .artwork_Sort_box_p
+{font-size: 24px; }
+
+
+    .artworks_section_p{
+        font-size: 32px;
     }
 
-    .main_header_right_side{
-        width: 30%;
+   
+    .artwork_All_Category_div_p{
+        font-size: 32px;
+      }
+
+    .dissapear2{
+        display: none;
     }
+
+    .artworks_cards {
+        gap: 24px;
+    }
+
+    .artwork_buttons_style,
+    .artwork_button_style_active{
+        width: 32px;
+        height: 32px;
+    }
+
+    .home_section{
+        height: 480px;
+    }
+
+    .home_section_h2{
+        margin-top: 150px;
+    }
+
+    .home_section_p{
+        width: 90%;
+    }
+    .homepage_latest_products_images_div{
+flex-direction: column;
+gap: 25px;
+    }
+
+    .button_fa-angles-left,
+.button_fa-angles-right {
+    display: none;
+}
+
+.button_viewmore{display: block;}
+
+}
+
+@media (max-width: 400px) {
+    .artworks_section_p{
+        font-size: 26px;
+    }
+
+    .artwork_search_input{
+        font-size: 10px;
+        
+    }
+
+    .artworks_section_button{
+        font-size: 15px;
+    }
+    .search_for_anything_div{
+        width: 100%;
+    }
+
+    /* .artwork_All_Category_div_p{
+      font-size: 18px;
+    } */
+}
+
+.artworks_cards_img{
+    width: 260px;
+     height: 200px; 
+ }
+
+@media (max-width: 320px) {
 
 
 }

@@ -1,28 +1,122 @@
 @media (max-width: 834px) {
-    .main_header{
-        padding: 15px 3%;
-    
+
+    .main_header {
+
+        padding: 15px 4%;
     }
-    .home_title_div{
-        width: 38%;
+    
+    .main_header_ul{
+        flex-direction: column;
+        
     }
 
     .home_title{
         flex-direction: column;
-    }
-
-    .main_header_nav{
-        width: 35%;
-    }
+            }
 
     .main_header_right_side{
         width: 20%;
     }
+    
+    .homepage_section_Earthly_Artistry_div
+    
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .homepage_section_Earthly_Artistry_h2,
+    .homepage_section_Earthly_Artistry_p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home_section{
+        height: 550px;
+    }
+
+    .home_cards_img_1,
+    .home_cards_img_2,
+    .home_cards_img_5 {
+
+        width: 440px;
+        height: 240px;
+
+    }
+
+ .latest_products_div4 {
+    display: none;
+ }
 
 
     .footer{
-        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0;
+   
     }
+    .footer_title{
+        display: flex;
+  
+        
+    }
+
+    .footer_title_div{
+        margin-top: 20px;
+        margin-bottom: 20px;
+  
+    }
+
+    .footer_left_side{
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer_socialmedia,
+    .footer_right_side{
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .artwork_select{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    .artworks_section{
+        height: 420px;
+    }
+
+    .artworks_section_div{
+        /* margin-top: 200px ; */
+        row-gap: 20px;
+    }
+
+   
+
+    .artwork_buttons_style,
+.artwork_button_style_active{
+    width: 40px;
+    height: 40px;
+}
+
+.dissapear1{
+    display: none;
+}
+.search_for_anything_div{
+    width: 100%;
+}
+.artwork_All_Category_div_p
+/* { font-size: 25px;} */
+
+.artwork_Sort_box_p
+{font-size: 20px; }
+
 
 }
 
