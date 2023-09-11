@@ -3,32 +3,48 @@
 
         padding: 9px 4%;
     }
-    .main_header_right_side{
+
+    .main_header_right_side {
         width: 30%;
     }
 
-    .main_header_nav{
+    .main_header_nav {
         display: none;
     }
 
-    .fa-bars{
+    .fa-bars {
         display: block;
     }
 
-    .artwork_Sort_box_p
-{font-size: 24px; }
+
+    .home_page_cards {
+        padding: 5px;
+    }
+
+    .home_cards_img_2,
+    .home_cards_img_4,
+    .home_cards_img_5 {
+        width: 400px;
+        height: 200px;
+
+    }
+  
+
+    .artwork_Sort_box_p {
+        font-size: 24px;
+    }
 
 
-    .artworks_section_p{
+    .artworks_section_p {
         font-size: 32px;
     }
 
-   
-    .artwork_All_Category_div_p{
-        font-size: 32px;
-      }
 
-    .dissapear2{
+    .artwork_All_Category_div_p {
+        font-size: 32px;
+    }
+
+    .dissapear2 {
         display: none;
     }
 
@@ -37,64 +53,116 @@
     }
 
     .artwork_buttons_style,
-    .artwork_button_style_active{
+    .artwork_button_style_active {
         width: 32px;
         height: 32px;
     }
 
-    .home_section{
-        height: 480px;
-    }
 
-    .home_section_h2{
+
+    /* .home_section_h2{
         margin-top: 150px;
-    }
+    } */
 
-    .home_section_p{
+    .home_section_p {
         width: 90%;
     }
-    .homepage_latest_products_images_div{
-flex-direction: column;
-gap: 25px;
+
+
+
+    .homepage_latest_products_images_div {
+        flex-direction: column;
+        gap: 25px;
     }
 
     .button_fa-angles-left,
-.button_fa-angles-right {
-    display: none;
-}
+    .button_fa-angles-right {
+        display: none;
+    }
 
-.button_viewmore{display: block;}
+    .button_viewmore {
+        display: block;
+    }
+
+    .homepage_section_Earthly_Artistry_first_title {
+        font-size: 32px;
+    }
+
+    .homepage_section_Earthly_Artistry_div {
+
+        margin: auto;
+        gap: 28px;
+    }
+
+    .homepage_section_Earthly_Artistry_bottom_text {
+        height: 200px;
+
+    }
+
+    .homepage_Subscribe_h1 {
+        font-size: 32px;
+    }
+
+
+
 
 }
 
 @media (max-width: 400px) {
-    .artworks_section_p{
+    .artworks_section_p {
         font-size: 26px;
     }
 
-    .artwork_search_input{
+    .artwork_search_input {
         font-size: 10px;
-        
+
     }
 
-    .artworks_section_button{
+
+
+    .section_our_gallery_cards{
+        padding: 80px 0px;
+    }
+
+    .home_cards_img_2,
+    .home_cards_img_4,
+    .home_cards_img_5 {
+        width: 370px;
+        height: 220px;
+
+    }
+
+    .home_cards_img_5 {
+        width: 300px;
+        height: 220px;
+
+    }
+
+    .artworks_section_button {
         font-size: 15px;
     }
-    .search_for_anything_div{
+
+    .search_for_anything_div {
         width: 100%;
     }
 
-    /* .artwork_All_Category_div_p{
-      font-size: 18px;
-    } */
+   
+
+.homepage_Subscribe_to_Newsletter {
+    height: 200px;
 }
 
-.artworks_cards_img{
-    width: 260px;
-     height: 200px; 
- }
 
-@media (max-width: 320px) {
+
+.SUBSCRIBE_button {
+
+    height: 48px;
+    padding: 13px 25px 13px 26px;
+    font-size: 18px;
 
 
 }
+
+}
+
+@media (max-width: 320px) {}

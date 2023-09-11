@@ -17,6 +17,14 @@
     .main_header_right_side{
         width: 20%;
     }
+
+    .home_section{
+        height: 100%;
+    }
+
+    .home_section_div{
+margin-top: 200px ;
+    }
     
     .homepage_section_Earthly_Artistry_div
     
@@ -33,18 +41,24 @@
         align-items: center;
     }
 
-    .home_section{
-        height: 550px;
-    }
+    
 
-    .home_cards_img_1,
     .home_cards_img_2,
-    .home_cards_img_5 {
+   .home_cards_img_4,
+   .home_cards_img_5 {
 
         width: 440px;
         height: 240px;
 
     }
+
+    .home_page_cards{
+        padding: 35px;
+        gap: 25px;
+
+    }
+
+
 
  .latest_products_div4 {
     display: none;
@@ -117,6 +131,52 @@
 .artwork_Sort_box_p
 {font-size: 20px; }
 
+
+.contact_section{
+    /* padding-top: 220px ;
+    padding-left: 0; */
+
+    height: 700px;
+    padding: 128px 20px 56px 20px;
+    
+}
+
+
+.contact_section_box{
+    width: 100%;
+   
+    
+}
+.contact_section_box_h2 {
+    font-size: 30px;
+
+}
+
+.name_email_div{
+    margin-top: 10px;
+    
+
+}
+
+
+.contact_page_information {
+margin: 64px auto;
+
+}
+.contact_page_information_title{
+    margin-bottom: 30px;
+}
+
+.contact_page_information_div{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact_page_contact_information_list{
+    margin-right: none;
+    margin: auto;
+}
 
 }
 
