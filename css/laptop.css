@@ -1,3 +1,11 @@
+@media (max-width: 1490px) {
+
+/* .home_page_cards {
+
+   width: 60%;} */
+}
+
+
 @media (max-width: 1110px) {
 
 
@@ -9,14 +17,6 @@
 
     }
 
-    .main_header_nav {
-        width: 25%;
-    }
-
-    .main_header_ul {
-        flex-direction: column;
-
-    }
 
     .main_header_li,
     .main_header_li_active,
@@ -28,18 +28,19 @@
 
 
 
-    .home_title_div {
-        width: 31.5%;
-    }
-
     .home_title_div_1,
     .home_title_div_2 {
         font-size: 32px;
     }
 
-    .main_header_right_side {
+    /* .main_header_right_side {
         width: 15%;
-    }
+    } */
+
+    .home_page_cards {
+
+   /* width: 80%; */
+}
 
     .home_cards_img_1,
     .home_cards_img_3 {

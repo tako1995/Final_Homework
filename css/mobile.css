@@ -1,29 +1,20 @@
 @media (max-width: 480px) {
 
-.fa-xmark{
-    display: block;
-}
+
 
     .main_header {
 
         padding: 9px 4%;
     }
 
-    .main_header_right_side {
-        width: 30%;
+
+    .home_page_card_div {
+        width: 100%;
     }
 
-    .main_header_nav {
-        display: none;
-    }
-
-    .fa-bars {
-        display: block;
-    }
-
-
-    .home_page_cards {
-        padding: 5px;
+    .home_page_card {
+        width: 70%;
+        height: 170px;
     }
 
     .home_cards_img_2,
@@ -33,7 +24,7 @@
         height: 200px;
 
     }
-  
+
 
     .artwork_Sort_box_p {
         font-size: 24px;
@@ -72,6 +63,7 @@
 
 
     .homepage_latest_products_images_div {
+
         flex-direction: column;
         gap: 25px;
     }
@@ -110,6 +102,12 @@
 }
 
 @media (max-width: 400px) {
+
+    .home_page_card {
+        width: 40%;
+        height: 96px;
+    }
+
     .artworks_section_p {
         font-size: 26px;
     }
@@ -121,7 +119,7 @@
 
 
 
-    .section_our_gallery_cards{
+    .section_our_gallery_cards {
         padding: 80px 0px;
     }
 
@@ -147,16 +145,16 @@
         width: 100%;
     }
 
-.homepage_Subscribe_to_Newsletter {
-    height: 200px;
-}
+    .homepage_Subscribe_to_Newsletter {
+        height: 200px;
+    }
 
-.SUBSCRIBE_button {
+    .SUBSCRIBE_button {
 
-    height: 48px;
-    padding: 13px 25px 13px 26px;
-    font-size: 18px;
-}
+        height: 48px;
+        padding: 13px 25px 13px 26px;
+        font-size: 18px;
+    }
 
 }
 
