@@ -466,7 +466,7 @@
     height: 260px;
     display: flex;
     align-items: end;
-    transition: all 1s linear;
+    transition: all 0.1s linear;
 }
 
 .latest_products_div1:hover,
@@ -476,8 +476,8 @@
 .homepage_latest_products_p:hover,
 .button_fa-angles-left:hover,
 .button_fa-angles-right:hover {
-    box-shadow: 10px 15px 5px brown;
-    transform: scale(1.2);
+    box-shadow: 10px 10px 5px brown;
+    transform: scale(1.1);
 }
 
 
