@@ -1,8 +1,10 @@
-@media (max-width: 1490px) {
+@media (max-width: 1480px) {
 
-/* .home_page_cards {
-
-   width: 60%;} */
+    .contact_page_information {
+        width: 80%;
+        
+            }
+       
 }
 
 
@@ -34,7 +36,7 @@
     }
 
     .section_our_gallery_cards{
-        padding: 96px 125px;
+        padding: 96px 5%;
     }
    
  
@@ -61,5 +63,10 @@
     
 }
 
+.contact_page_information {
+    width: 90%;
+    
+        }
+   
 
 }
