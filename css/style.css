@@ -2,7 +2,7 @@
     max-width: 1920px;
     width: 100%;
     margin: auto;
-    
+
 }
 
 /* HOME PAGE-1 */
@@ -39,12 +39,13 @@
     cursor: pointer;
 
 }
-.fa-xmark{
-    display:none;
+
+.fa-xmark {
+    display: none;
     color: #FFF;
     font-size: 28px;
     cursor: pointer;
-    
+
 }
 
 
@@ -131,11 +132,11 @@
 .main_header_right_side {
 
 
-   
+
     display: flex;
     column-gap: 16px;
     align-items: center;
-    
+
 
 
 
@@ -181,7 +182,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
-   
+
     /* background-color: aqua; */
 }
 
@@ -225,7 +226,7 @@
     border-radius: 10px;
     border: 2px solid #D5906E;
     color: #FFF;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -247,7 +248,7 @@
 /* home_page_cards */
 
 .home_page_cards {
-    
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -257,8 +258,9 @@
 }
 
 .home_page_card_div {
-   width: 20%;text-align: center;
-    }
+    width: 20%;
+    text-align: center;
+}
 
 .home_page_card {
     width: 100%;
@@ -268,7 +270,7 @@
 
 .home_page_card_p {
     color: #B53B1B;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -279,7 +281,7 @@
 
 /* home page - Our Gallery */
 
-.section_our_gallery_cards {
+/* .section_our_gallery_cards {
 
     height: 100%;
     background-color: #402101;
@@ -341,6 +343,65 @@
 .home_cards_img_5 {
     width: 440px;
     height: 260px;
+} */
+
+
+.section_our_gallery_cards {
+
+    background-color: #402101;
+    padding: 80px 100px;
+}
+
+.section_our_gallery_h2 {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+
+}
+
+.home_cards_columns_div {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 40px;
+    border: 2px solid white;
+
+
+}
+
+.home_cards_columns_div img {
+    object-fit: cover;
+}
+
+.home_cards_columns_div_top,
+.home_cards_columns_div_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_cards_img_1 {
+
+    width: 56%;
+    height: 322px;
+}
+
+.home_cards_img_2 {
+
+    width: 40%;
+    height: 322px;
+}
+
+.home_cards_img_3,
+.home_cards_img_4,
+.home_cards_img_5 {
+
+width: 30%;
+height: 260px;
+
 }
 
 /* latest products */
@@ -356,7 +417,7 @@
 
 .homepage_latest_products_p {
     color: #402101;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -371,7 +432,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-  
+
 
 
 }
@@ -414,17 +475,16 @@
 .latest_products_div4:hover,
 .homepage_latest_products_p:hover,
 .button_fa-angles-left:hover,
-.button_fa-angles-right:hover
-
-{
-    box-shadow: 10px 15px 5px brown;transform: scale(1.2);
+.button_fa-angles-right:hover {
+    box-shadow: 10px 15px 5px brown;
+    transform: scale(1.2);
 }
 
 
 
 .latest_products_p_cost {
     color: #B53B1B;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -457,7 +517,7 @@
     border-radius: 10px;
     background: #B53B1B;
     color: #FFF;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -482,7 +542,7 @@
 
 .homepage_Subscribe_h1 {
     color: #FFF;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -503,13 +563,13 @@
     border: 1px solid #FFF;
     margin-top: 50px;
     box-shadow: inset 10px 15px 10px transparent;
-    
-    
+
+
 }
 
 .Email_Address_input {
     color: #FFF;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -518,16 +578,16 @@
     border: none;
     outline: none;
     width: 60%;
-   
+
 }
 
-.Email_Address_div:hover{
+.Email_Address_div:hover {
     background-color: white;
 }
 
 .SUBSCRIBE_button {
     color: #402101;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -539,7 +599,7 @@
     border: none;
     border-radius: 0px 10px 10px 0px;
     background: #FFF;
-   
+
 }
 
 .SUBSCRIBE_button:hover {
@@ -562,7 +622,7 @@
 
 .homepage_section_Earthly_Artistry_first_title {
     color: #402101;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -573,13 +633,13 @@
 .homepage_section_Earthly_Artistry_div {
     display: flex;
     gap: 15px;
-    
+
 
 }
 
 .homepage_section_Earthly_Artistry_h2 {
     color: #B53B1B;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -589,27 +649,28 @@
 
 .homepage_section_Earthly_Artistry_p {
     color: #402101;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-  
+
 
 }
 
 .homepage_section_Earthly_Artistry_bottom_text {
     color: #402101;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-align: center;
     margin-top: 15px;
-    
+
 
 }
+
 .homepage_section_Earthly_Artistry_button {
     margin-top: 20px;
     display: inline-flex;
@@ -619,7 +680,7 @@
     border-radius: 10px;
     background-color: #B53B1B;
     color: #FFF;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -634,9 +695,9 @@
 }
 
 ._section_Earthly_Artistry:hover,
-.homepage_section_Earthly_Artistry_button:hover{
+.homepage_section_Earthly_Artistry_button:hover {
     box-shadow: -3px -3px 3px 3px brown,
-    3px 3px 3px 3px brown;
+        3px 3px 3px 3px brown;
 }
 
 /* footer */
@@ -668,7 +729,7 @@
 
 .footer_title_div_1 {
     color: #FFF;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -678,7 +739,7 @@
 
 .footer_title_div_2 {
     color: #D5906E;
-    font-family: 'Inter', sans-serif;  
+    font-family: 'Inter', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
@@ -701,7 +762,7 @@
     justify-content: center;
     gap: 10px;
     color: #FFF;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -715,7 +776,7 @@
     flex-direction: column;
     row-gap: 10px;
     color: #FFF;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -785,7 +846,7 @@
 
 .artworks_section_p {
     color: #FFF;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -804,7 +865,7 @@
     border-radius: 10px;
     border: 2px solid #D5906E;
     color: #FFF;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -854,7 +915,7 @@
     align-items: center;
     border-radius: 10px;
     border: 2px solid #402101;
-   
+
 }
 
 .selection {
@@ -862,7 +923,7 @@
     /* width: 25%; */
     border: none;
     color: #402101;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -878,7 +939,7 @@
     align-items: flex-start;
     border: none;
     outline: none;
- 
+
 }
 
 
@@ -896,7 +957,7 @@
     background: #402101;
     border: none;
     color: white;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -925,7 +986,7 @@
 
 .artwork_All_Category_div_p {
     color: #402101;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -947,7 +1008,7 @@
 
 .artwork_Sort_box_p {
     color: #402101;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -996,7 +1057,7 @@
 
 .artworks_cards_text {
     color: #B53B1B;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1017,7 +1078,7 @@
 
 .artworks_cards_p {
     color: #402101;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -1033,7 +1094,7 @@
     border: none;
     background-color: transparent;
     color: #402101;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -1050,7 +1111,7 @@
 
 }
 
-.artwork_buttons_style:hover{
+.artwork_buttons_style:hover {
     background-color: #c38474;
 }
 
@@ -1064,7 +1125,7 @@
     align-items: center;
     flex-shrink: 0;
     color: #402101;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -1087,7 +1148,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 208px ;
+    padding-top: 208px;
     padding-left: 240px;
 }
 
@@ -1106,7 +1167,7 @@
     background: rgba(64, 33, 1, 0.73);
     box-shadow: -1px -1px 4px 0px #FFF;
     background-color: transparent;
- 
+
 }
 
 .contact_section_box:hover {
@@ -1116,7 +1177,7 @@
 .contact_section_box_h2 {
     width: 100%;
     color: #FFF;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -1131,7 +1192,7 @@
     justify-content: space-between;
     margin-top: 20px;
     background-color: transparent;
-   
+
 
 }
 
@@ -1141,14 +1202,14 @@
     border-radius: 10px;
     border: 2px solid #FFF;
     color: rgba(255, 255, 255, 0.76);
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     background-color: transparent;
-    width: 40% ;
-  
+    width: 40%;
+
 }
 
 .textarea_submit_div {
@@ -1160,20 +1221,20 @@
 }
 
 .textarea_message {
-    
+
     height: 120px;
     /* padding: 8px 372px 71px 8px; */
     border-radius: 10px;
     border: 2px solid #FFF;
     color: rgba(255, 255, 255, 0.76);
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     background-color: transparent;
     resize: none;
-  
+
 }
 
 .textarea_message:hover,
@@ -1187,7 +1248,7 @@
     height: 56px;
     padding: 19px 42px 18px 43px;
     color: #FFF;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1216,12 +1277,12 @@
     align-items: center;
     /* background-color: #B53B1B; */
     padding: 160 0;
- 
+
 }
 
 .contact_page_information_title {
     color: #402101;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -1252,7 +1313,7 @@
 
 .contact_page_information_list_p {
     color: #B53B1B;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -1261,7 +1322,7 @@
 
 .contact_page_contact_style {
     color: #623932;
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
@@ -1269,7 +1330,6 @@
 }
 
 .contact_page_iframe {
-width: 80%;
+    width: 80%;
     height: 320px;
 }
-

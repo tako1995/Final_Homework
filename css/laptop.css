@@ -33,20 +33,17 @@
         font-size: 32px;
     }
 
-    /* .main_header_right_side {
-        width: 15%;
-    } */
+    .section_our_gallery_cards{
+        padding: 96px 125px;
+    }
+   
+ 
 
-    .home_page_cards {
-
-   /* width: 80%; */
-}
-
-    .home_cards_img_1,
+    /* .home_cards_img_1,
     .home_cards_img_3 {
         display: none;
         
-    }
+    } */
 
     
 

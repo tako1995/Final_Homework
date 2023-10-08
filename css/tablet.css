@@ -16,13 +16,14 @@
     }
 
     .main_header_nav {
-        width: 50%;
+        width: 40%;
         height: 160px;
         padding: 25px 0;
         background-color: #B53B1B;
         position: fixed;
         top: 108px;
         left: -50%;
+        
     }
 
     .show {
@@ -63,7 +64,7 @@
 
 
 
-    .home_cards_img_2,
+    /* .home_cards_img_2,
     .home_cards_img_4,
     .home_cards_img_5 {
 
@@ -79,8 +80,22 @@
         margin: 64px 20px;
        row-gap: 40px; 
 
+    } */
+
+    .section_our_gallery_cards{
+        padding: 96px 20px;
     }
 
+.home_cards_columns_div_top {
+    flex-direction: column;
+    width: 960px;
+    
+}
+
+.home_cards_img_3 {
+    display: none;
+    
+}
 
 
     .latest_products_div4 {
